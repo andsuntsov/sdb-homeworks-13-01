@@ -15,7 +15,7 @@
 
 `Установите и запустите memcached.`
 
-`![Статус memcached](screenshots/status-memcached.png)`
+![Статус memcached](screenshots/status-memcached.png)
 
 ---
 
@@ -23,10 +23,10 @@
 
 `Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.`
 
-`![Удаление ключей по времени жизни](screenshots/ttl.png)`
+![Удаление ключей по времени жизни](screenshots/ttl.png)
 
 ### Задание 4
 
 `Запишите в Redis несколько ключей с любыми именами и значениями.`
 
-`![Запись данных в Redis](screenshots/redis.png)`
+![Запись данных в Redis](screenshots/redis.png)
