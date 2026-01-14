@@ -1,32 +1,31 @@
-# Домашнее задание к занятию "`Кеширование Redis/memcached`" - `Сунцов Андрей`
+# Домашнее задание к занятию "`ELK`" - `Сунцов Андрей`
 
 ---
 
 ### Задание 1
 
-`Приведите примеры проблем, которые может решить кеширование.`
+`Установите и запустите Elasticsearch, после чего поменяйте параметр cluster_name на случайный.`
 
-1. `Перегрузка базы данных - повторяющиеся запросы к базе данных замедляют работу системы`
-2. `Медленная загрузка веб-страниц - кеш сокращает время загрузки`
+![elasticsearch](screenshots/elasticsearch.png)
 
 ---
 
 ### Задание 2
 
-`Установите и запустите memcached.`
+`Установите и запустите Kibana.`
 
-![Статус memcached](screenshots/status-memcached.png)
+![kibana](screenshots/kibana.png)
 
 ---
 
 ### Задание 3
 
-`Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.`
+`Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.`
 
-![Удаление ключей по времени жизни](screenshots/ttl.png)
+![logstash](screenshots/logstash.png)
 
 ### Задание 4
 
-`Запишите в Redis несколько ключей с любыми именами и значениями.`
+`Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.`
 
-![Запись данных в Redis](screenshots/redis.png)
+![filebeat](screenshots/filebeat.png)
